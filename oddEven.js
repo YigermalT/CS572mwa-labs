@@ -33,7 +33,7 @@ Array.prototype.odd = function () {
         console.log(oddNumbers);
     };
     var oddFunction = oddFunc.bind(this);
-    setTimeout(oddFunction, 0);
+    setTimeout(oddFunction,  0);
 }
 
 console.log('Start');
